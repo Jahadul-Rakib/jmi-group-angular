@@ -1,0 +1,47 @@
+.screen{
+    background-image: url("src\assets\image\bg.jpg");
+    background-repeat: repeat;
+}
+
+.carousel{
+    background: #2f4357;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px;
+}
+.bs-example{
+    margin-top: 10px; 
+    height: 450px;
+}
+@media (max-width:800px) {
+    #carouselContainer {
+        display:none !important;
+    }
+}
+
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #006B85;
+    background-color: transparent;
+    border-color: #006B85;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}

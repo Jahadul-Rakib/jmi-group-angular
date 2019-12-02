@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JmiWeb</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <app-root></app-root>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script>
+        (function () {
+                var setting = { "height": 200, "width": 400, "zoom": 17, "queryString": "JMI Group, Dhaka, Bangladesh", "place_id": "ChIJbVN5bGG4VTcRCfcKEaHUXu8", "satellite": false, "centerCoord": [23.743467506985358, 90.41592560000004], "cid": "0xef5ed4a1110af709", "lang": "en", "cityUrl": "/bangladesh/dhaka-2125", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "124147" };
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=124147';
+                s.async = true;
+                s.onload = function (e) {
+                    window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+            })();
+            </script>
+</body>
+</html>
