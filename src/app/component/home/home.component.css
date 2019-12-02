@@ -6,6 +6,7 @@
 .carousel{
     background: #2f4357;
 }
+
 .carousel-item{
     text-align: center;
     min-height: 280px;
@@ -35,7 +36,7 @@
 }
 .btn-clear
 {
-    color: #006B85;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     border-color: #006B85;
     margin-right: 15px;
