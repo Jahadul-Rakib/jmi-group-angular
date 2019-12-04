@@ -17,7 +17,7 @@
    
 }
 .show.dropdown .dropdown-toggle::after {
-  transform: translateY(30px);
+  transform: translateY(10px);
 }
 .megamenu {
   position: static;
@@ -54,3 +54,28 @@ code {
     overflow-y:auto;
   }
 } */
+
+@media (max-width: 768px){
+  .dropdown-menu{
+    height:200px;
+    width: 350px;
+    overflow-y:auto;
+ }
+ .navbar{
+   margin-left: auto;
+   
+ }
+ .navbar-nav{
+   width: 100%;
+ }
+ .navbar-nav{
+   background-color: rgb(255, 255, 255);
+   width: 380px;
+   margin-left: -80px;
+   padding-left: 15px;
+ }
+ .megarow{
+   margin-top: -50px;
+   margin-left: -50px;
+ }
+}
